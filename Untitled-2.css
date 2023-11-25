@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the main sections */
+section {
+    padding: 2rem;
+}
+
+/* Style the home section */
+#home {
+    background-color: #ddff00;
+    text-align: center;
+}
+
+/* Style the left card */
+.left.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(250, 104, 104, 0.1);
+    text-align: center;
+}
+
+/* Style the right card */
+.right.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the card titles */
+.card-title {
+    color: #333333;
+    margin-top: 10px;
+}
+
+
+/* Style the services section */
+#services ul {
+    list-style: circle;
+    padding: 0;
+}
+
+#services li {
+    margin-bottom: 0.5rem;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #c3fbee;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f9bcbc;
+    color: #39b0be;
+}
